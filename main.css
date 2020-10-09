@@ -1,0 +1,143 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: hsl(210, 46%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-size: 13px;
+  color: hsl(212, 23%, 57%);
+}
+
+.container {
+  display: flex;
+  width: 780px;
+}
+
+.box {
+  background-color: white;
+  margin-left: -61px;
+  width: 400px;
+  height: 235px;
+  display: flex;
+  flex-direction: column;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 15px 30px 30px 35px;
+}
+
+.drawers {
+  width: 335px;
+  height: 280px;
+  border-radius: 10px;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 210px;
+  height: 42px;
+  background-color: hsl(217, 19%, 35%);
+  margin-bottom: -4px;
+  border-radius: 8px;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  color: hsl(212, 23%, 69%);
+  padding-left: 14px;
+}
+
+ul li {
+  margin-right: 5px;
+}
+
+ul a, p {
+  margin-right: 10px;
+}
+
+ul p {
+  letter-spacing: 5px;
+  margin-right: 10px;
+}
+
+.menu-box {
+  width: 140px;
+  height: 40px;
+  align-self: flex-end;
+  z-index: 2;
+  margin-right: -6px;
+  margin-top: -80px;
+  margin-bottom: 45px;
+}
+
+.the {
+  width: 20px;
+  margin-left: 100px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-left: 185px;
+  margin-bottom: 15px;
+  align-self: flex-end;
+}
+
+button:focus {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.nd-box {
+  display: flex;
+}
+
+.par {
+  line-height: 20px;
+  margin-top: -1px;
+  z-index: 1;
+}
+
+.avatr-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.rd-box {
+  display: flex;
+  margin-top: -10px;
+}
+
+.rd-box p {
+  margin-bottom: -12px;
+  margin-left: 10px;
+}
+
+.de {
+  color: hsl(212, 23%, 80%);
+}
+
+.mi {
+  color: hsl(217, 19%, 35%);
+}
+
+h2 {
+  color: hsl(217, 19%, 35%);
+}
+
+.menuOff, .the {
+  display: none;
+}
+
+.menuOn {
+  display: block;
+}
