@@ -14,6 +14,17 @@ body {
   width: 780px;
 }
 
+
+.menuOff
+{
+  visibility: hidden;
+}
+
+.menuOn
+{
+    display: block;
+}
+
 .box {
   background-color: white;
   margin-left: -61px;
@@ -38,7 +49,7 @@ body {
   border-radius: 50%;
 }
 
-ul {
+#menu {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,7 +88,15 @@ ul p {
   margin-bottom: 45px;
 }
 
-.the {
+.followOff {
+  visibility: hidden;
+}
+
+.followOn {
+  display: block;
+}
+
+#follow {
   width: 20px;
   margin-left: 100px;
 }
@@ -132,12 +151,4 @@ button:focus {
 
 h2 {
   color: hsl(217, 19%, 35%);
-}
-
-.menuOff, .the {
-  display: none;
-}
-
-.menuOn {
-  display: block;
 }
